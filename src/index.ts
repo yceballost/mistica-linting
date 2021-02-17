@@ -5,7 +5,7 @@ const assistant: AssistantPackage = [
   CoreAssistant,
   async () => {
     return {
-      name: 'mistica-libraries-maintenance',
+      name: 'mistica-linting',
       rules: [],
       config: {
         rules: {
@@ -16,31 +16,13 @@ const assistant: AssistantPackage = [
           '@sketch-hq/sketch-core-assistant/text-styles-no-dirty': {
             "active": true,
           },
-          '@sketch-hq/sketch-core-assistant/fills-no-disabled': {
-            "active": true,
-          },
-          '@sketch-hq/sketch-core-assistant/borders-no-disabled': {
-            "active": true,
-          },
-          '@sketch-hq/sketch-core-assistant/inner-shadows-no-disabled': {
-            "active": true,
-          },
-          '@sketch-hq/sketch-core-assistant/shadows-no-disabled': {
-            "active": true,
-          },
           '@sketch-hq/sketch-core-assistant/library-layer-styles-allowed-libraries': {
             "active": true,
-            "libraries": ["Movistar"]
+            "libraries": ["Movistar", "O2", "ClassicO2", "Vivo"]
           },
           '@sketch-hq/sketch-core-assistant/library-text-styles-allowed-libraries': {
             "active": true,
-            "libraries": ["Movistar"]
-          },
-          '@sketch-hq/sketch-core-assistant/layers-no-hidden': {
-            "active": true,
-          },
-          '@sketch-hq/sketch-core-assistant/symbols-no-detached': {
-            "active": true,
+            "libraries": ["Movistar", "O2", "ClassicO2", "Vivo"]
           },
         },
       },
