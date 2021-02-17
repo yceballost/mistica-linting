@@ -481,19 +481,15 @@
   resolved "https://registry.yarnpkg.com/@json-schema-spec/json-pointer/-/json-pointer-0.1.2.tgz#5153d5d01b94134015ee829deca5a970cf0406fd"
   integrity sha512-BYY7IavBjwsWWSmVcMz2A9mKiDD9RvacnsItgmy1xV8cmgbtxFfKmKMtkVpD7pYtkx4mIW4800yZBXueVFIWPw==
 
-"@lingui/core@2.9.1":
-  version "2.9.1"
-  resolved "https://registry.yarnpkg.com/@lingui/core/-/core-2.9.1.tgz#e0edf9ad628bd49a0c42958390317834f0283636"
-  integrity sha512-oygikacnRlfR2p8Q30q9z7jBASvVd8JXgoq7q2Ao/NdZyk3YIYbDhBICxAtwlCbm1hSROh2xMS2Ygx3Ezwzp1Q==
-  dependencies:
-    babel-runtime "^6.26.0"
-    make-plural "^4.1.1"
-    messageformat-parser "^2.0.0"
-
 "@schemastore/package@0.0.5":
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/@schemastore/package/-/package-0.0.5.tgz#67b621d5c833ad2d5a29a1acf868717b7839bb8a"
   integrity sha512-0XEiMT/Rh8I0SEIO81fo5MN3AHhONFv9SJ1IIJ5OTI3PN/jG032OPlHUMxvrun7yc6YUGtufVg2WPQVK8PaH5Q==
+
+"@schemastore/package@0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@schemastore/package/-/package-0.0.6.tgz#9a76713da1c7551293b7e72e4f387f802bfd5d81"
+  integrity sha512-uNloNHoyHttSSdeuEkkSC+mdxJXMKlcUPOMb//qhQbIQijXg8x54VmAw3jm6GJZQ5DBtIqGBd66zEQCDCChQVA==
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.1"
@@ -518,6 +514,15 @@
     "@sketch-hq/sketch-file-format-ts" "5.1.1"
     "@types/json-schema" "7.0.4"
 
+"@sketch-hq/sketch-assistant-types@^6.3.1":
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/@sketch-hq/sketch-assistant-types/-/sketch-assistant-types-6.3.1.tgz#fde16e832a1861b74584a962046e4c979d2c6c0d"
+  integrity sha512-IS8s9HySieDPFqX6bbSDuz2EY2d/ZwyJakJdCzY9bppmDK0InpdatsP+hEOijAiioQM7/fEipOzgBW9W6kLc9w==
+  dependencies:
+    "@schemastore/package" "0.0.6"
+    "@sketch-hq/sketch-file-format-ts" "5.2.1"
+    "@types/json-schema" "7.0.6"
+
 "@sketch-hq/sketch-assistant-utils@6.0.0":
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/@sketch-hq/sketch-assistant-utils/-/sketch-assistant-utils-6.0.0.tgz#81f89d82f3f9ea10e6e4b1ddb729c6783f1fcc85"
@@ -534,20 +539,15 @@
     p-timeout "3.2.0"
     probe-image-size "5.0.0"
 
-"@sketch-hq/sketch-core-assistant@^6.2.0":
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/@sketch-hq/sketch-core-assistant/-/sketch-core-assistant-6.2.0.tgz#74920eafdd1bcdbd9efe45b05d9bb7a991457b40"
-  integrity sha512-Q8w46OS+cjS81pJOqTENuPsTQkp1ldzeWCVBlwKReUe9WjBTy0QUU5dbqQsjgPaiMegRqdh/EZxNQ7f9k5qAOw==
-  dependencies:
-    "@lingui/core" "2.9.1"
-    "@sketch-hq/sketch-assistant-types" "6.0.0"
-    "@types/lingui__core" "2.7.0"
-    "@types/lingui__macro" "2.7.3"
-
 "@sketch-hq/sketch-file-format-ts@5.1.1":
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/@sketch-hq/sketch-file-format-ts/-/sketch-file-format-ts-5.1.1.tgz#53b7cdb7ce034486a412791f88061329941a37ee"
   integrity sha512-VTRCUeggr+fMle7sNtQw+PAe2fRoVL35n+i+Q8etuwJXPPcz9jW08XytlFtQE+qfnNWLrryCGY/SS7Rm9Qz3GA==
+
+"@sketch-hq/sketch-file-format-ts@5.2.1":
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/@sketch-hq/sketch-file-format-ts/-/sketch-file-format-ts-5.2.1.tgz#37f0bd8a1bffd67a756efaf71018c3cefd90999c"
+  integrity sha512-/ZXf+96AmWk3cp8E2GeREUKJRLscmg6pXUprN6LMLHJ6J90UcWWvLZrCbwG7eVAocbR0QXpc8SQs9nCi9woeDg==
 
 "@types/babel__core@^7.0.0", "@types/babel__core@^7.1.7":
   version "7.1.12"
@@ -629,23 +629,10 @@
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.4.tgz#38fd73ddfd9b55abb1e1b2ed578cb55bd7b7d339"
   integrity sha512-8+KAKzEvSUdeo+kmqnKrqgeE+LcA0tjYWFY7RPProVYwnqDjukzO+3b6dLD56rYX5TdWejnEOLJYOIeh4CXKuA==
 
-"@types/lingui__core@*":
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/@types/lingui__core/-/lingui__core-2.7.1.tgz#b79473705882e569cc07caa87f8395449d77d620"
-  integrity sha512-zfJoKAfgYyk00s1xuMqyIbQdxw4OI0G5hFsc1ARU+zv+2WCPjlPh+CfPEu3iOm1GSdOjj3vpu7E+JTGjMW+fzA==
-
-"@types/lingui__core@2.7.0":
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/@types/lingui__core/-/lingui__core-2.7.0.tgz#a93e53338a5a7ae5aa8cdb22ef0111d2053c6ef0"
-  integrity sha512-4gx/msI4cVlx1/RI1g6bDREZqflWh4HflMX3A5mMnvM6ymohg5SOzWk+R18N6/44ONPqOI+pcP8xjKLrI2tQhQ==
-
-"@types/lingui__macro@2.7.3":
-  version "2.7.3"
-  resolved "https://registry.yarnpkg.com/@types/lingui__macro/-/lingui__macro-2.7.3.tgz#7671abf5c816b79028e320053a53d13ca6cf7c8e"
-  integrity sha512-/kU4T6F7qNYwao0G2NV2LBt0AZuGcLM2w37pf70QcZDky1TAJIGxB76m4L1jlTW4GZXbvPZbQlws8i8Uctqg3A==
-  dependencies:
-    "@types/lingui__core" "*"
-    "@types/react" "*"
+"@types/json-schema@7.0.6":
+  version "7.0.6"
+  resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.6.tgz#f4c7ec43e81b319a9815115031709f26987891f0"
+  integrity sha512-3c+yGKvVP5Y9TYBEibGNR+kLtijnj7mYrXRg+WpFb2X9xm04g/DXYkfg4hmzJQosc9snFNUPkbYIhu+KAm6jJw==
 
 "@types/node@*":
   version "14.14.8"
@@ -666,19 +653,6 @@
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-2.1.5.tgz#b6ab3bba29e16b821d84e09ecfaded462b816b00"
   integrity sha512-UEyp8LwZ4Dg30kVU2Q3amHHyTn1jEdhCIE59ANed76GaT1Vp76DD3ZWSAxgCrw6wJ0TqeoBpqmfUHiUDPs//HQ==
-
-"@types/prop-types@*":
-  version "15.7.3"
-  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
-  integrity sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==
-
-"@types/react@*":
-  version "16.9.56"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.56.tgz#ea25847b53c5bec064933095fc366b1462e2adf0"
-  integrity sha512-gIkl4J44G/qxbuC6r2Xh+D3CGZpJ+NdWTItAPmZbR5mUS+JQ8Zvzpl0ea5qT/ZT3ZNTUcDKUVqV3xBE8wv/DyQ==
-  dependencies:
-    "@types/prop-types" "*"
-    csstype "^3.0.2"
 
 "@types/stack-utils@^2.0.0":
   version "2.0.0"
@@ -1117,14 +1091,6 @@ babel-preset-jest@^26.6.2:
   dependencies:
     babel-plugin-jest-hoist "^26.6.2"
     babel-preset-current-node-syntax "^1.0.0"
-
-babel-runtime@^6.26.0:
-  version "6.26.0"
-  resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
-  integrity sha1-llxwWGaOgrVde/4E/yM3vItWR/4=
-  dependencies:
-    core-js "^2.4.0"
-    regenerator-runtime "^0.11.0"
 
 balanced-match@^1.0.0:
   version "1.0.0"
@@ -1636,11 +1602,6 @@ copy-descriptor@^0.1.0:
   resolved "https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
   integrity sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
 
-core-js@^2.4.0:
-  version "2.6.11"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.11.tgz#38831469f9922bded8ee21c9dc46985e0399308c"
-  integrity sha512-5wjnpaT/3dV+XB4borEsnAYQchn00XSgTAWKDkEqv+K8KevjbzmofK6hfJ9TZIlpj2N0xQpazy7PiRQiWHqzWg==
-
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
@@ -1730,11 +1691,6 @@ cssstyle@^2.2.0:
   integrity sha512-AZL67abkUzIuvcHqk7c09cezpGNcxUxU4Ioi/05xHk4DQeTkWmGYftIE6ctU6AEt+Gn4n1lDStOtj7FKycP71A==
   dependencies:
     cssom "~0.3.6"
-
-csstype@^3.0.2:
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.5.tgz#7fdec6a28a67ae18647c51668a9ff95bb2fa7bb8"
-  integrity sha512-uVDi8LpBUKQj6sdxNaTetL6FpeCqTjOvAQuQUa/qAqq8oOd4ivkbhgnqayl0dnPal8Tb/yB1tF+gOvCBiicaiQ==
 
 cyclist@^1.0.1:
   version "1.0.1"
@@ -3509,13 +3465,6 @@ make-error@1.x:
   resolved "https://registry.yarnpkg.com/make-error/-/make-error-1.3.6.tgz#2eb2e37ea9b67c4891f684a1394799af484cf7a2"
   integrity sha512-s8UhlNe7vPKomQhC1qFelMokr/Sc3AgNbso3n74mVPA5LTZwkB9NlXf4XPamLxJE8h0gh73rM94xvwRT2CVInw==
 
-make-plural@^4.1.1:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/make-plural/-/make-plural-4.3.0.tgz#f23de08efdb0cac2e0c9ba9f315b0dff6b4c2735"
-  integrity sha512-xTYd4JVHpSCW+aqDof6w/MebaMVNTVYBZhbB/vi513xXdiPT92JMVCo0Jq8W2UZnzYRFeVbQiQ+I25l13JuKvA==
-  optionalDependencies:
-    minimist "^1.2.0"
-
 makeerror@1.0.x:
   version "1.0.11"
   resolved "https://registry.yarnpkg.com/makeerror/-/makeerror-1.0.11.tgz#e01a5c9109f2af79660e4e8b9587790184f5a96c"
@@ -3579,11 +3528,6 @@ merge-stream@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/merge-stream/-/merge-stream-2.0.0.tgz#52823629a14dd00c9770fb6ad47dc6310f2c1f60"
   integrity sha512-abv/qOcuPfk3URPfDzmZU1LKmuw8kT+0nIHvKrKgFrwifol/doWcdA4ZqsWQ8ENrFKkd67Mfpo/LovbIUsbt3w==
-
-messageformat-parser@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/messageformat-parser/-/messageformat-parser-2.0.0.tgz#e37efa0cb07b6784e5f3adc089cbf266208c01c7"
-  integrity sha512-C2ZjB5GlLeikkeoMCTcwEeb68LrFl9osxQzXHIPh0Wcj+43wNsoKpRRKq9rm204sAIdknrdcoeQMUnzvDuMf6g==
 
 micromatch@^3.0.4, micromatch@^3.1.10, micromatch@^3.1.4:
   version "3.1.10"
@@ -4354,11 +4298,6 @@ readdirp@~3.5.0:
   integrity sha512-cMhu7c/8rdhkHXWsY+osBhfSy0JikwpHK/5+imo+LpeasTF8ouErHrlYkwT0++njiyuDvc7OFY5T3ukvZ8qmFQ==
   dependencies:
     picomatch "^2.2.1"
-
-regenerator-runtime@^0.11.0:
-  version "0.11.1"
-  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
-  integrity sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==
 
 regex-not@^1.0.0, regex-not@^1.0.2:
   version "1.0.2"
