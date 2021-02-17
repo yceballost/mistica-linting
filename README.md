@@ -1,5 +1,5 @@
 # Mística-Linting
-A simple assistant **for Sketch** to keep your files FULL Mística.
+A simple assistant **for Sketch** to keep your files *FULL* Mística.
 
 ## Install
 1. Copy and paste this line in your browser  
