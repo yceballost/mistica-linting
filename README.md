@@ -1,16 +1,7 @@
-# sketch-assistant-template
-
-> 💁‍♀️ This repository contains a starter project for developing a new Assistant.
+# Mística-Linting
+A simple assistant for Sketch to keep your files FULL Mística.
 
 👉
-[Click here to generate a new project using this repository as a template](https://github.com/sketch-hq/sketch-assistant-template/generate)
+[Click here to install](sketch://add-assistant?url=https://github.com/yceballost/mistica-linting/raw/main/Releases/mistica-linting-1.0.0.tgz)
 
-## Getting started
-
-For in-depth guides head over to the [Sketch Developer](https://developer.sketch.com/assistants/)
-site.
-
-- [Getting started](https://developer.sketch.com/assistants/getting-started)
-- [Writing a rule](https://developer.sketch.com/assistants/writing-a-rule)
-- [Publishing](https://developer.sketch.com/assistants/publishing)
-- And more!
+![image](img/mistica-linting-image.png)
