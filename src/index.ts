@@ -11,7 +11,7 @@ const assistant: AssistantPackage = [
         rules: {
           '@sketch-hq/sketch-core-assistant/library-symbols-allowed-libraries': {
             "active": true,
-            "libraries": ["Mistica\ iOS", "Mistica\ Android", "Mistica\ Desktop", "Movistar", "Mistica\ Icons"]
+            "libraries": ["Mistica\ iOS", "Mistica\ Android", "Mistica\ Desktop", "Movistar", "Mistica\ Icons", "O2", "ClassicO2", "Vivo"]
           },
           '@sketch-hq/sketch-core-assistant/text-styles-no-dirty': {
             "active": true,
