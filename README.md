@@ -8,3 +8,6 @@ A simple assistant **for Sketch** to keep your files *FULL* Mística.
 <div align="center">
   <img src="img/mistica-linting-image.png">
 </div>
+
+## About Sketch Assistants
+First time using a Sketch Assistant? [Read Sketch's help documentation.](https://www.sketch.com/docs/assistants/)
