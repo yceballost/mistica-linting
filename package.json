@@ -1,7 +1,7 @@
 {
-  "name": "@yceballost/mistica-linting",
-  "homepage": "https://github.com/yceballost/mistica-linting",
-  "version": "1.1.0",
+  "name": "mistica-linting",
+  "homepage": "https://sketch.com/extensions/assistants/mistica-linting",
+  "version": "1.1.3",
   "main": "dist/index.js",
   "sketch": "dist/sketch.js",
   "license": "MIT",
@@ -11,7 +11,7 @@
     "icon": "https://i.ibb.co/2qntMbF/misticaiso-thumb.png"
   },
   "author": {
-    "name": "yceballost"
+    "name": "Ignacio Ceballos <yceballost@gmail.com>"
   },
   "publishConfig": {
     "access": "public"
@@ -22,7 +22,9 @@
     "sketch assistant",
     "public",
     "assistant",
-    "design ops"
+    "design ops",
+    "mistica",
+    "linting"
   ],
   "files": [
     "dist"
